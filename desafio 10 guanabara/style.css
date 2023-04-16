@@ -1,0 +1,348 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Chocolates';
+    src: url(fonts/TT\ Chocolates\ Trial\ Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: chirp;
+    src: url(fonts/chirp_regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: chirpthin;
+    src: url(fonts/chirp_thin.otf);
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: chirplight;
+    src: url(fonts/chirp_light.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: chirpmedium;
+    src: url(fonts/chirp_medium.otf);
+    font-weight:bold;
+    font-style: normal;
+}
+
+body {
+    background-color: #15202b;
+    display: inline-flex;
+    margin: 0;
+    margin-left: 15%;
+    height: 100vh;
+}
+
+header {
+    background-color: #15202b;
+    min-height: fit-content;
+    max-height: fit-content;
+    max-width: 250px;
+    min-width: 250px;
+    margin: 0;
+    
+}
+
+
+
+#twitterlogo {
+    display: block;
+    max-width: 34px;
+    max-height: fit-content;
+    margin: 3% 0px 3% 0px;
+    padding: 11px;
+}
+
+#twitterlogo:hover {
+    background-color: #162d3f;
+    border-radius: 50%;
+    transition-duration: 0.1s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    color: white;
+    margin: 0;
+    height: fit-content;
+    width: fit-content;
+}
+
+h2.HeaderTitle {
+    font-family: 'chirplight';
+    font-size: 1.3rem;
+    font-weight: 100;
+    margin: 0.8vh 0px 0.5vh 0px;
+    padding: 14px 28px 14px 14px;
+}
+
+h2.HeaderTitle:hover {
+    border-radius: 40px;
+    background-color: #2c3640;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    
+}
+
+h2#homebutton::before {
+    content: '';
+    background: url(images/home\ button1.png) no-repeat; 
+    display: inline-flex;
+    width: 25px;
+    height: 26px;
+    background-size: contain;
+    float: left;
+    margin-right: 20px;
+}
+
+h2#searchtool::before {
+    content: '';
+    background: url(images/search\ tool1.png) no-repeat;
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    float: left;
+    margin-right: 20px;
+}
+
+h2#ring::before {
+    content: '';
+    background: url(images/ring2.png) no-repeat;
+    display: inline-flex;
+    width: 25px;
+    height: 23px;
+    background-size: contain;
+    float: left;
+    margin-right: 20px;
+}
+
+h2#messages::before {
+    content: '';
+    background: url(images/messages2.png) no-repeat;
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    float: left;
+    margin-right: 20px;
+}
+
+h2#twitterblue::before {
+    content: '';
+    background: url(images/twitter\ blue1.png) no-repeat;
+    display: inline-flex;
+    width: 25px;
+    height: 27px;
+    background-size: contain;
+    float: left;
+    margin-right: 20px;
+}
+
+h2#profile::before {
+    content: '';
+    background: url(images/profile1.png) no-repeat;
+    display: inline-flex;
+    width: 25px;
+    height: 27px;
+    background-size: contain;
+    float: left;
+    margin-right: 20px;
+}
+
+h2#more::before {
+    content: '';
+    background: url(images/more1.png) no-repeat;
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    float: left;
+    margin-right: 20px;
+}
+
+h2#tweetar {
+    font-family: 'chirpthin';
+    font-size: 1.1rem;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #1d9bf0;
+    padding: 14px;
+    border-radius: 30px;
+    height: fit-content;
+    width: 75%;
+}
+
+h2#tweetar:hover {
+    background-color: #1a8cd8;
+    transition-duration: 0.4s;
+}
+
+
+
+section {
+    background-color: #15202b;
+    min-width: 600px;
+    width: 600px;
+    border: 1px solid #3e4752;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+
+}
+
+.SectionTop {
+    min-height: 90px;
+    max-height: 90px;
+    border: 1px solid #3e4752;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    cursor: pointer;
+}
+
+h1.SectionTitleTop {
+    color: white;
+    font-family: 'chirp';
+    font-size: 1.4rem;
+    font-style: normal;
+    padding-left: 20px;
+    margin-top: 3%;
+}
+
+h2.SectionTitleBottom {
+    color: white;
+    font-family: 'chirp';
+    font-size: 1.0rem;
+}
+
+.BoxTitleBottom {
+    width: 49%;
+    display: inline-block;
+    /* margin-top: 6px; */
+    padding-top: 12px;
+    top: -6px;
+    position: relative;
+}
+
+
+
+h2#foryou {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding-bottom: 20px; 
+}
+
+h2#following {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding-bottom: 20px;
+
+}
+
+
+
+#boxforyou1 {
+    background-color: #1d9bf0;
+    width: 70px;
+    height: 5px;
+    display: none;
+    border-radius: 20px;
+    margin: auto;
+    top: -5px;
+    position: relative;
+    
+}
+
+#boxforyou:hover #boxforyou1 {
+    display: block;
+    transition-duration: 0.2s;
+    
+}
+
+#boxfollowing1 {
+    background-color: #1d9bf0;
+    width: 67px;
+    height: 5px;
+    display: none;
+    border-radius: 20px;
+    margin: auto;
+    top: -5px;
+    position: relative;
+}
+
+#boxfollowing:hover #boxfollowing1 {
+    display: block;
+    transition-duration: 0.2s;
+}
+
+/* .BoxTitleBottom:hover .SectionTitleBottom {
+    background-color: #2c3640;
+    padding: 20px 122px 0px 110px;
+    top: -20px;
+    left: 3.8px;
+    position: relative;
+
+} */
+
+
+
+
+@media (max-width: 600px) {
+    header .HeaderTitle span {
+        display: none;
+    }
+
+    header {
+        min-width: fit-content;
+        /* padding: 0px 15px 0px 15px; */
+        margin: 0px 15px 0px 15px;
+
+    }
+
+    h2.HeaderTitle {
+        min-height: 56px;
+        min-width: 56px;
+        max-width: 56px;
+        padding: 0px;
+        position: relative;
+        margin: 0.5vh 0px 0.5vh 0px;
+    }
+
+    h2.HeaderTitle::before {
+        top: 15px;
+        left: 15px;
+        position: relative;
+    }
+
+    h2#tweetar {
+        max-width: 56px;
+        padding: 0px;
+    }
+
+    #twitterlogo {
+        margin-top: 13.4%;
+    }
+
+
+
+}
